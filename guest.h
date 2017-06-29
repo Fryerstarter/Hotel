@@ -4,8 +4,12 @@
 
 class Guest
 {
-public:
+  string first_name, last_name;
+  Reservation guest_reservation;
+    
+  public:
     Guest();
+    Guest(string first, string last);
 };
 
 #endif // GUEST_H
